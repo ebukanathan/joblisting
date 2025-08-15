@@ -26,7 +26,7 @@ function App() {
   );
 
   return (
-    <div className="bg-LightGrayishCyan">
+    <div className="w-screen overflow-x-hidden bg-LightGrayishCyan">
       <div className="h-[23vh] bg-DarkCyan mb-20">
         <img
           src="images/bg-header-desktop.svg"
@@ -35,8 +35,8 @@ function App() {
         />
       </div>
       {selected.length > 0 ? (
-        <div className=" h-[15vh] absolute top-[15%] left-[17%]  bg-white w-2/3 mx-auto shadow-lg flex  justify-between items-center px-2">
-          <div className="w-[80%] flex flex-wrap">
+        <div className=" absolute top-[15%] left-[17%]  bg-white w-2/3 mx-auto shadow-lg flex  justify-between items-center px-2">
+          <div className="flex flex-wrap w-[90] md:w-[80%] ">
             {selected.map((item, index) => (
               <Tab
                 key={index}

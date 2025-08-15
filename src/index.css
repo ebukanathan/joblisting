@@ -1,12 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=League+Spartan:wght@100..900");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
+  font-family: "League Spartan", sans-serif;
   overflow-x: hidden;
   margin: 0;
-}
-
-.card {
-  transition: all ease-in-out 5000;
 }
