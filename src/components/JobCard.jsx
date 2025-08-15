@@ -69,7 +69,7 @@ function JobCard({ job, selected, setSelected, setFiltered }) {
           {
             <div
               onClick={() => HandleSelected(job.level)}
-              className="text-DarkCyan bg-[#effafa] hover:bg-DarkCyan hover:text-white  cursor-pointer font-semibold  bg-red-500 text-lg px-3 rounded-lg capitalize"
+              className="text-DarkCyan bg-[#effafa] hover:bg-DarkCyan hover:text-white  cursor-pointer font-semibold  text-lg px-3 rounded-lg capitalize"
             >
               {job.level}
             </div>
@@ -78,7 +78,7 @@ function JobCard({ job, selected, setSelected, setFiltered }) {
             <div
               onClick={() => HandleSelected(lang)}
               key={index}
-              className="text-DarkCyan bg-[#effafa] hover:bg-DarkCyan hover:text-white  cursor-pointer font-semibold  bg-red-500 text-lg px-3 rounded-lg capitalize"
+              className="text-DarkCyan bg-[#effafa] hover:bg-DarkCyan hover:text-white  cursor-pointer font-semibold text-lg px-3 rounded-lg capitalize"
             >
               {lang}
             </div>
@@ -87,7 +87,7 @@ function JobCard({ job, selected, setSelected, setFiltered }) {
             <div
               onClick={() => HandleSelected(lang)}
               key={index}
-              className="text-DarkCyan bg-[#effafa] hover:bg-DarkCyan hover:text-white  cursor-pointer font-semibold  bg-red-500 text-lg px-3 rounded-lg capitalize"
+              className="text-DarkCyan bg-[#effafa] hover:bg-DarkCyan hover:text-white  cursor-pointer font-semibold text-lg px-3 rounded-lg capitalize"
             >
               {lang}
             </div>
