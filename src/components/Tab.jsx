@@ -2,13 +2,13 @@ import React from "react";
 
 function Tab({ tabname, onClick }) {
   return (
-    <div className="w-[90px] px-1 rounded-l bg-green-400 m-2 flex justify-between items-center">
-      <div className="font-semibold text-md">{tabname}</div>
+    <div className="relative w-[120px] px-1 py-1  rounded-lg  bg-LightGrayishCyan text-DarkCyan m-2 flex gap-2 justify-between items-center">
+      <div className="font-semibold text-lg">{tabname}</div>
       <div
-        className="text-white hover:bg-white hover:text-black"
+        className="absolute rounded-r-lg font-bold text-xl flex items-center  h-[100%] right-0  px-2 bg-DarkCyan text-white hover:bg-VeryDarkGrayishCyan cursor-pointer"
         onClick={onClick}
       >
-        x
+        X
       </div>
     </div>
   );
